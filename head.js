@@ -5,8 +5,7 @@ const assertEqual = function (actual, expected) {
 };
 
 const head = function (arr) {
-  let a = arr.splice(0, 1);
-  return a[0];
+  return arr[0];
 };
 
 // TEST CODE
