@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@zhengshuang2011/lotide",
+  "version": "1.0.1",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,10 @@
     "url": "git+https://github.com/zhengshuang2011/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Miranda Zheng",
+    "email": "zhengshuang2011@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zhengshuang2011/lotide/issues"
@@ -23,5 +26,8 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "mocha": "^9.1.3"
+  },
+  "dependencies": {
+    "my-package": "^0.0.0"
   }
 }
